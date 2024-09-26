@@ -6,6 +6,6 @@ def test_max_p_label():
         {'label': 'not hot dog', 'score': 0.4}
     ]
 
-    assert get_max_label(p) == "hot dog"
+    assert get_max_score(p) == "hot dog"
     assert get_max_score2(p) == "hot dog"
     assert get_max_score3(p) == "hot dog"
